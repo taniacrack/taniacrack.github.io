@@ -1,37 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head> 
-    <style>
-        .celeste{
-            background-color: aquamarine;
-        }
-        .isaack{
-            text-align: center;
-        }
-        .azul{
-            background-color: rgb(0, 4, 255);
-        }
-        .morado{
-            background-color: rgb(241, 241, 10);
-        }
-        .ver{
-background-image: -webkit-radial-gradient();
-        }
-    </style>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="celeste">
-    <div class="azul">
-<h1 class="">Llegaste a mi vida cuando mi mundo se me iba</h1>
-<p class="isaack">isaack benjamin escobar santana</p>
-</div>
-<div class="morado">
-    <div class="ver">
-   <img src="https://img.freepik.com/vector-premium/feliz-dia-madre-ilustracion-madre-e-hijo-kawaii-chibi-personaje-plano_380474-541.jpg" alt="" width=350"></div>
-   <img src="https://i.pinimg.com/736x/eb/c2/6a/ebc26ae456d8e5d3b79772410afcf133.jpg" alt="" srcset=""width=350">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHVSPRcgArVc2aJSq0ixRunM8_wixCRTv4PYrnn8VWaA&s" alt="" srcset=""width=350">
-</div>
+<body>
+    <header>
+        <h1>Bienvenidos la era de la Tecnologías</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>¿Quién soy?</h2>
+        <p>Hola, soy un desarrollador web y este es mi sitio web.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Desarrollo web</li>
+            <li>Consultoría en tecnologías</li>
+            <li>Diseño web</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, puedes hacerlo a través del siguiente formulario:</p>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
+
