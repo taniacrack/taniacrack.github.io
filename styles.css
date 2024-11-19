@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #28467c;
-    color: white;
+    background-color: #7b94c2;
+    color: rgb(47, 151, 129);
     padding: 20px;
     text-align: center;
 }
@@ -61,4 +61,15 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
+}
+#qr-code {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#qr-code img {
+    border: 5px solid #333;  /* Le da un borde alrededor del QR */
+    border-radius: 10px;      /* Hace que el borde sea redondeado */
+    padding: 10px;            /* Espacio alrededor de la imagen */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
